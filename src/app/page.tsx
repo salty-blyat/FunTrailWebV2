@@ -1,13 +1,7 @@
-import { Hero } from "@/components/hero";
-import { Navbar } from "@/components/navbar"; 
-export default function Home() {
+import Home from "@/home/page"; 
+
+export default function App() {
   return (
-    <>
-      <Navbar />
-      <main>
-        <Hero />
-      </main>
-      <footer></footer>
-    </>
+   <Home />
   );
 }
