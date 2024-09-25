@@ -5,8 +5,8 @@ import { BentoGrid } from "./components/bento-grid";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <Navbar /> 
+      <Hero /> 
       <main className="container mx-auto">
         <BentoGrid />
       </main>

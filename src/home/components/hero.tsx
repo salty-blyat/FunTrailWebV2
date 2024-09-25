@@ -16,7 +16,7 @@ export function Hero() {
   }
 
   return (
-    <div className="relative w-full h-[38rem] overflow-hidden">
+    <div className="relative w-full h-[38rem] overflow-hidden mt-52">
       <div className="absolute inset-0">
         <Image
           src={hero}
